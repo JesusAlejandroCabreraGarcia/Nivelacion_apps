@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionEventoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/eventoicono"
+        />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawableLeft="@drawable/fecha"
+        android:text="fecha"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/nombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:drawableLeft="@drawable/event"
+        android:text="nombre"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/fecha"
+        app:layout_constraintStart_toStartOf="@+id/fecha"
+        app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+    <TextView
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp"
+        android:drawableLeft="@drawable/lugar"
+        android:text="lugar"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/nombre2"
+        app:layout_constraintStart_toStartOf="@+id/nombre2"
+
+        app:layout_constraintTop_toBottomOf="@+id/nombre2" />
+
+    <ToggleButton
+        android:id="@+id/asistire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@drawable/asistire"
+        android:text="Button"
+        android:textColor="#FFF"
+        android:textOff="Asistire"
+        android:textOn="No asistire"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/categoria" />
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:text="descripcion"
+        app:layout_constraintEnd_toEndOf="@+id/lugar"
+        app:layout_constraintStart_toStartOf="@+id/lugar"
+        app:layout_constraintTop_toBottomOf="@+id/asistire" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#BEFFFFFF"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/categoria"
+        android:text="categoria"
+        app:layout_constraintEnd_toEndOf="@+id/lugar"
+        app:layout_constraintStart_toStartOf="@+id/lugar"
+        app:layout_constraintTop_toBottomOf="@+id/lugar"
+        android:layout_marginVertical="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

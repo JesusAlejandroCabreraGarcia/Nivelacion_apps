@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/asistire.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/buscar.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/buscarusuario.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/categoria.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/event.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/drawable/evento.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/activity_eventos.xml" value="0.22" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/activity_informacion_evento.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/categoria_item.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/evento_item.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/fragment_buscar.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/fragment_home.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/layout/fragment_perfil.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/menu/menu.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Alex/Documents/Nivelacion/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13703703703703704" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/drawable/asistire.xml" value="0.3828125" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/drawable/evento.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/activity_eventos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/activity_informacion_evento.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/categoria_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/evento_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/fragment_buscar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/layout/fragment_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ordenaris/AndroidStudioProjects/Nivelacion/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/T440/AndroidStudioProjects/Nivelacion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/T440/AndroidStudioProjects/Nivelacion/app/src/main/res/drawable/buscarusuario.xml" value="0.15572916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
